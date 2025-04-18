@@ -1,0 +1,8 @@
+openai
+requests
+aiohttp
+python-dotenv
+rich
+textstat
+click
+google-generativeai
