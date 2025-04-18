@@ -1,7 +1,10 @@
-**Setup Instruction**
-- Clone the repository
+### **Setup Instruction**
+- Clone the repository:
+ ```bash
+  git clone <repository-url>
 - Move to project directory & activate the virtual enviroment using the below command
-```venv/Scripts/activate```
+```bash
+venv/Scripts/activate
 
 - Install all the dependencies
 ```pip install -r requirements.txt```
