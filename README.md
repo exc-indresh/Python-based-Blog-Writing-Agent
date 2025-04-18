@@ -16,6 +16,7 @@ pip install -r requirements.txt
 - Add gemin_api_key and newdData_api_key in .env file
 - Run the script
 ```bash
-python main.py "topic on which you want create blog"
+python cli.py "topic on which you want to create blog" --tone=technical
 ```
-This will generate reponse files ie- response.md and response.json in output folder
+- tone(optional) is a parameter and its default value is "educational" to generate blog with the current tone using gemini 
+- This will generate reponse files ie- response.md and response.json in output folder
